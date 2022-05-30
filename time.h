@@ -3,4 +3,4 @@
  *
  */
 
-int time = 218;
+int timer = 218;

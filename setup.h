@@ -1,5 +1,5 @@
 
-void setup()
+void do_setup()
 {
 
   Serial.begin(9600);

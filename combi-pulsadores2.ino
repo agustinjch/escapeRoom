@@ -13,13 +13,13 @@
 void setup()
 {
 
-  setup();
+  do_setup();
 }
 
 void loop()
 {
 
-  init();
+  do_init();
   attempt();
 
   if (modo == 1)

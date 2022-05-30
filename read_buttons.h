@@ -21,7 +21,7 @@ void read_buttonsM1()
   if (digitalRead(pul2) == LOW)
   {
 
-    delay(time);
+    delay(timer);
 
     while (digitalRead(pul2) == LOW)
       ;
@@ -38,7 +38,7 @@ void read_buttonsM1()
   if (digitalRead(pul3) == LOW)
   {
 
-    delay(time);
+    delay(timer);
 
     while (digitalRead(pul3) == LOW)
       ;
@@ -57,7 +57,7 @@ void read_buttonsM1()
   if (digitalRead(check) == LOW)
   {
     // Serial.println("pre");
-    delay(time);
+    delay(timer);
 
     if ((counter1 == 2) & (counter2 == 3) & (counter3 == 2))
     {
@@ -85,7 +85,7 @@ void read_buttonsM2()
 {
   if (digitalRead(pul1) == LOW)
   {
-    delay(time);
+    delay(timer);
 
     while (digitalRead(pul1) == LOW)
       ;
@@ -102,7 +102,7 @@ void read_buttonsM2()
 
   if (digitalRead(pul2) == LOW)
   {
-    delay(time);
+    delay(timer);
 
     while (digitalRead(pul2) == LOW)
       ;
@@ -119,7 +119,7 @@ void read_buttonsM2()
 
   if (digitalRead(pul3) == LOW)
   {
-    delay(time);
+    delay(timer);
 
     while (digitalRead(pul3) == LOW)
       ;
@@ -137,7 +137,7 @@ void read_buttonsM2()
   if (digitalRead(check) == LOW)
   {
 
-    delay(time);
+    delay(timer);
 
     if ((counter4 == 3) & (counter5 == 2) & (counter6 == 3))
     {
@@ -167,7 +167,7 @@ void read_buttonsM3()
 
   if (digitalRead(pul1) == LOW)
   {
-    delay(time);
+    delay(timer);
 
     while (digitalRead(pul1) == LOW)
       ;
@@ -184,7 +184,7 @@ void read_buttonsM3()
 
   if (digitalRead(pul2) == LOW)
   {
-    delay(time);
+    delay(timer);
 
     while (digitalRead(pul2) == LOW)
       ;
@@ -201,7 +201,7 @@ void read_buttonsM3()
 
   if (digitalRead(pul3) == LOW)
   {
-    delay(time);
+    delay(timer);
 
     while (digitalRead(pul3) == LOW)
       ;
@@ -219,7 +219,7 @@ void read_buttonsM3()
   if (digitalRead(check) == LOW)
   {
 
-    delay(time);
+    delay(timer);
 
     if ((counter7 == 2) & (counter8 == 2) & (counter9 == 2))
     {
