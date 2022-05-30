@@ -1,11 +1,12 @@
 
 
-void initt(){
+void init()
+{
 
-  if(digitalRead(go)==LOW){
-    delay(timee);
-    modo=1;
-    v=1;
+  if (digitalRead(go) == LOW)
+  {
+    delay(time);
+    modo = 1;
+    v = 1;
   }
-
 }

@@ -1,6 +1,6 @@
 /*
  * En este fichero añadiremos todos los delays que necesite el programa
- * 
+ *
  */
 
-int timee = 218;
+int time = 218;
