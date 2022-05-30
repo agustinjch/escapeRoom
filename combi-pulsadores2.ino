@@ -10,32 +10,36 @@
 #include "init.h"
 #include "attempts.h"
 
+void setup()
+{
 
-void setup() {
-
-  setupp();
-
+  setup();
 }
 
-void loop() {
-  
-  initt();
+void loop()
+{
+
+  init();
   attempt();
 
-  if(modo==1){  
-    read_switch();   
+  if (modo == 1)
+  {
+    read_switch();
     read_buttonsM1();
   }
-  if(modo==2){
+  if (modo == 2)
+  {
     read_switch();
     read_buttonsM2();
   }
-  if(modo==3){
+  if (modo == 3)
+  {
     read_switch();
     read_buttonsM3();
   }
 
-  if(modo==4){
+  if (modo == 4)
+  {
     overcome();
   }
 }

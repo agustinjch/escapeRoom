@@ -1,14 +1,12 @@
-      void reset_count(){
-      
-      contador1=0;
-      contador2=0;
-      contador3=0;
-      contador4=0;
-      contador5=0;
-      contador6=0;
-      contador7=0;
-      contador8=0;
-      contador9=0;
-      
-
-      }
+void reset_count()
+{
+      int counter1 = 0;
+      int counter2 = 0;
+      int counter3 = 0;
+      int counter4 = 0;
+      int counter5 = 0;
+      int counter6 = 0;
+      int counter7 = 0;
+      int counter8 = 0;
+      int counter9 = 0;
+}
