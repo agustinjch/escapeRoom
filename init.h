@@ -7,6 +7,6 @@ void do_init()
   {
     delay(timer);
     modo = 1;
-    v = 1;
+    v = 1; //variable the switch file
   }
 }
