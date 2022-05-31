@@ -1,3 +1,4 @@
+//we initialize the functions
 
 void do_setup()
 {
@@ -9,9 +10,9 @@ void do_setup()
   lcd.clear();
 
   lcd.setCursor(0, 0);
-  lcd.print(" PULSA EL BOTON");
+  lcd.print(" PULSA EL BOTON"); // lcd.print("PRESS THE BUTTON");
   lcd.setCursor(5, 1);
-  lcd.print("ROJO");
+  lcd.print("ROJO"); // lcd.print("RED");
   delay(2500);
   lcd.clear();
 

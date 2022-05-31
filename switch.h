@@ -1,5 +1,11 @@
+/*
+ * In this case I have 3 cases, because there are 3 different modes. 
+ * Each time the 3 digit key is correct, we go to the next case.
+ * 
+ */
 
-byte v = 0; // variable para el switch
+
+byte v = 0; // variable for the switch
 
 void read_switch()
 {
@@ -8,13 +14,13 @@ void read_switch()
   {
   case 1:
     lcd.setCursor(0, 0);
-    lcd.print("B1: ");
+    lcd.print("B1: "); //button1
 
     lcd.setCursor(4, 0);
     lcd.print(counter1);
 
     lcd.setCursor(8, 0);
-    lcd.print("B2: ");
+    lcd.print("B2: ");//button2
     lcd.setCursor(12, 0);
     lcd.print(counter2);
 

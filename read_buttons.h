@@ -1,3 +1,9 @@
+/*
+ * here what I do is to read when the buttons are pressed, each time it is pressed, the counter adds up to 1. 
+ */
+
+
+
 void read_buttonsM1()
 {
   if (digitalRead(pul1) == LOW)
@@ -11,7 +17,10 @@ void read_buttonsM1()
     Serial.println(counter1);
     lcd.setCursor(4, 0);
     lcd.print(counter1);
-
+    
+    //if the counter reaches 4, it goes back to 0, 
+    //this can be modified, in case you need to reach a higher number
+    
     if (counter1 == 4)
     {
       counter1 = 0;
@@ -23,8 +32,7 @@ void read_buttonsM1()
 
     delay(timer);
 
-    while (digitalRead(pul2) == LOW)
-      ;
+    while (digitalRead(pul2) == LOW);
     counter2++;
     Serial.print("C2 ");
     Serial.println(counter2);
@@ -54,6 +62,9 @@ void read_buttonsM1()
       counter3 = 0;
     }
   }
+
+  //if we press the check button, it will check if the counters match the key.
+  
   if (digitalRead(check) == LOW)
   {
     // Serial.println("pre");
@@ -63,6 +74,7 @@ void read_buttonsM1()
     {
 
       digitalWrite(led1, HIGH);
+      //if it is correct, we switch to mode 2. 
       next_level1();
     }
     else
@@ -80,7 +92,7 @@ void read_buttonsM1()
     }
   }
 }
-
+//this is exactly the same as above, but we are in the second combination
 void read_buttonsM2()
 {
   if (digitalRead(pul1) == LOW)
@@ -161,7 +173,7 @@ void read_buttonsM2()
     }
   }
 }
-
+//this is exactly the same as above, but we are in the three combination
 void read_buttonsM3()
 {
 

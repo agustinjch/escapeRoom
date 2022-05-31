@@ -1,3 +1,5 @@
+//once the 3 combinations are guessed, the counters are reset.
+
 void reset_count()
 {
       int counter1 = 0;

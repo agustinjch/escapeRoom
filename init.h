@@ -1,4 +1,4 @@
-
+//until the go button is pressed, the program will not run.
 
 void do_init()
 {

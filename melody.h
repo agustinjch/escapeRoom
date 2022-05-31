@@ -1,4 +1,4 @@
-// Melodia de star wars
+// melody that is played when we have completed all the combinations
 
 int c = 261;
 int d = 294;

@@ -1,4 +1,7 @@
 
+//every time we hit the check button and the combination is correct, 
+//we switch to the next mode
+
 void next_level1(){
           
           

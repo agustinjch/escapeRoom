@@ -1,6 +1,5 @@
-/*
- * En este fichero añadiremos todos los delays que necesite el programa
- *
- */
+
+//In this file we will add all the delays that the program needs.
+ 
 
 int timer = 218;

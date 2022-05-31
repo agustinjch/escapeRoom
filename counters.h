@@ -1,3 +1,6 @@
+//statement of counters
+
+
 //  modo1
 byte counter1 = 0;
 byte counter2 = 0;

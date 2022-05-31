@@ -1,3 +1,5 @@
+// I include all the external files I need for the program.
+
 #include "constants.h"
 #include "counters.h"
 #include "library.h"
@@ -12,7 +14,7 @@
 
 void setup()
 {
-
+  // setup.h file
   do_setup();
 }
 
